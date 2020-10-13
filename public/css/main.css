@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  color: white;
+}
+
+body,
+input,
+button,
+textarea {
+  /* font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif; */
+  /* Código resumido abaixo*/
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}
