@@ -1,4 +1,10 @@
-/* Animações */
+/* Animações pagina home*/
+.animate-up {
+  animation-name: up;
+  animation-duration: 300ms;
+  animation-fill-mode: backwards;
+}
+
 @keyframes up {
   from {
     opacity: 0;
@@ -11,8 +17,21 @@
   }
 }
 
-.animate-up {
-  animation-name: up;
-  animation-duration: 300ms;
-  animation-fill-mode: backwards;
+/* Animações page orphanages */
+.animate-right {
+  animation-name: right; /* Esta proprieda identifica o keyframe */
+  animation-duration: 300ms; /* Velocidade da animação */
 }
+
+@keyframes right {
+  /* "from" é o start(inicio) */
+  from {
+    transform: translateX(-100%) /* Aqui está colocando o objeto na posição -100% negativa do eixo X */
+  }
+  /* "to" é o end(fim) */
+  to {
+    transform: translateX(0); /* Aqui está voltando o objeto na posição 0 (padrão) do eixo X */
+  }
+}
+
+
